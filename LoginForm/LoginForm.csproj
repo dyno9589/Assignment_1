@@ -128,7 +128,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Home.aspx" />
-    <Content Include="Contact.aspx" />
+    <Content Include="GridViewIUD.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
@@ -143,6 +143,11 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Icons\add_new.png" />
+    <Content Include="Icons\cancel_icon.png" />
+    <Content Include="Icons\edit_icon.png" />
+    <Content Include="Icons\remove_icon.png" />
+    <Content Include="Icons\save_icon.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -188,12 +193,12 @@
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Contact.aspx.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
+    <Compile Include="GridViewIUD.aspx.cs">
+      <DependentUpon>GridViewIUD.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Contact.aspx.designer.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
+    <Compile Include="GridViewIUD.aspx.designer.cs">
+      <DependentUpon>GridViewIUD.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
