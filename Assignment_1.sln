@@ -33,7 +33,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WCFService1", "WCFService1\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoWebApp", "AdoWebApp\AdoWebApp.csproj", "{AFC9B27F-E8B7-451D-A112-81265E892DDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlInjection", "SqlInjection\SqlInjection.csproj", "{1D8035D7-D265-456F-943E-963AD07E573B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchControl", "SqlInjection\SearchControl.csproj", "{1D8035D7-D265-456F-943E-963AD07E573B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{36A2D6D1-BE60-47DD-969D-9F266B418CB0}"
 EndProject

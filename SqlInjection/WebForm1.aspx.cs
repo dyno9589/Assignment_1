@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 using System.Configuration;
 using System.Data.SqlClient;
 
-namespace SqlInjection
+namespace SearchControl
 {
     public partial class WebForm1 : System.Web.UI.Page
     {
@@ -23,11 +23,13 @@ namespace SqlInjection
             using (SqlConnection con = new SqlConnection(cs))
             {
                 string query = "select * from tblproductInventry where ProductName like @ProductName";
-                string sp = "spGetProductByName";
-                //SqlCommand cmd = new SqlCommand(query, con);
 
-                SqlCommand cmd = new SqlCommand(sp, con);
-                cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                //string sp = "spGetProductByName";
+
+                SqlCommand cmd = new SqlCommand(query, con);
+
+                //SqlCommand cmd = new SqlCommand(sp, con);
+                //cmd.CommandType = System.Data.CommandType.StoredProcedure;
 
                 cmd.Parameters.AddWithValue("@ProductName", TextBox1.Text +"%");
 
